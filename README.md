@@ -1,4 +1,4 @@
-#Static Block
+Static Block
 
 class A {
 
