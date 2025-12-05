@@ -1,2 +1,21 @@
-# Salary-
-Write a Java program to create a class called Employee with private instance variables name, salary, bonus. Provide public getter and setter methods to access and modify these variables. Add a method called calculateBonus() that takes an integer value and calculate the bonus by that value. 
+#Static Block
+
+class A {
+
+int x = 5;}
+class B extends A {
+
+int x = 10;
+
+void display() {
+    System.out.println(x);       // prints B's x
+    System.out.println(super.x); // prints A's x
+}
+}
+
+class Main {
+
+public static void main(String[] args) {
+    B b = new B();
+    b.display();    }
+}
